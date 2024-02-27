@@ -6,14 +6,16 @@ public class Project {
     private Date startDate;
     private Date endDate;
     private String description;
+    private int budget;
 
 
-    public Project(String projectName, String projectManager, Date startDate, Date endDate, String description) {
+    public Project(String projectName, String projectManager, Date startDate, Date endDate, String description,int budget) {
         this.projectName = projectName;
         this.projectManager = projectManager;
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
+        this.budget = budget;
     }
 
 
@@ -55,6 +57,13 @@ public class Project {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+    public int getBudget) {
+        return budget;
+    }
+
+    public void setBudget(int budget) {
+        this.budget = budget;
     }
 }
 
