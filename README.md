@@ -22,6 +22,18 @@ This Java application demonstrates an employee management system. It includes fu
 4. Create a database named `employee_management`.
 5. Import the provided SQL script (`database_script.sql`) into your MySQL database to create the necessary tables and sample data.
 6. Update the JDBC URL, username, and password in the `EmployeeManagementSQL` class according to your MySQL server configuration.
+ 
+   ## Running Tests
+To run the tests for the employee management system, follow these steps:
+
+1. Ensure that you have set up the project as described in the Setup section of this README file.
+2. Open your IDE (e.g., IntelliJ IDEA, Eclipse) and navigate to the project directory.
+3. Locate the test classes in the source folder.
+4. Right-click on the test class you want to run.
+5. Select "Run <EmployeeManagmentTest>" from the context menu to execute the tests.
+6. View the test results in the IDE's test runner tool window to verify the functionality of the employee management system.
+
+
 
 ## Usage
 1. Run the `EmployeeManagementSQL` class to execute the SQL queries and demonstrate the features of the employee management system.
