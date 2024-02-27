@@ -16,7 +16,7 @@ This Java application demonstrates an employee management system. It includes fu
 - MySQL Workbench or any MySQL client tool for database management
 
 ## Setup
-1. Clone the repository: `git clone https://github.com/your_username/employee-management.git`
+1. Clone the repository: `git clone https://github.com/KingCanute1011/Advanced-Employee-Management-System.git`
 2. Import the project into your IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Set up your MySQL database server.
 4. Create a database named `employee_management`.
